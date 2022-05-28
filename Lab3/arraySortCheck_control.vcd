@@ -1,0 +1,1265 @@
+$date
+	Tue Sep 15 19:59:53 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module arraySortCheck_control_test $end
+$var wire 1 ! zero_length_array $end
+$var wire 1 " sorted $end
+$var wire 1 # select_index $end
+$var wire 1 $ load_input $end
+$var wire 1 % load_index $end
+$var wire 1 & inversion_found $end
+$var wire 1 ' end_of_array $end
+$var wire 1 ( done $end
+$var reg 5 ) array [4:0] $end
+$var reg 1 * clock $end
+$var reg 1 + go $end
+$var reg 5 , length [4:0] $end
+$var reg 1 - reset $end
+$var integer 32 . i [31:0] $end
+$scope module circuit $end
+$var wire 5 / array [4:0] $end
+$var wire 1 * clk $end
+$var wire 1 ' end_of_array $end
+$var wire 1 & inversion_found $end
+$var wire 5 0 length [4:0] $end
+$var wire 1 - reset $end
+$var wire 1 ! zero_length_array $end
+$var wire 1 1 zero_length_case $end
+$var wire 1 # select_index $end
+$var wire 1 $ load_input $end
+$var wire 1 % load_index $end
+$var wire 5 2 length_minus_1 [4:0] $end
+$var wire 32 3 index_alu_in [31:0] $end
+$var wire 32 4 b [31:0] $end
+$var wire 32 5 array_plus_index_plus_1 [31:0] $end
+$var wire 32 6 array_plus_index [31:0] $end
+$var wire 32 7 array_alu_in [31:0] $end
+$var wire 1 8 a_ne_b_1 $end
+$var wire 1 9 a_lt_b_2 $end
+$var wire 1 : a_lt_b_1 $end
+$var wire 32 ; a [31:0] $end
+$var reg 5 < array_reg [4:0] $end
+$var reg 5 = index_reg [4:0] $end
+$var reg 5 > length_reg [4:0] $end
+$scope module compareElements $end
+$var wire 1 8 ne $end
+$var wire 1 : lt $end
+$var wire 32 ? B [31:0] $end
+$var wire 32 @ A [31:0] $end
+$upscope $end
+$scope module comparelength $end
+$var wire 5 A A [4:0] $end
+$var wire 5 B B [4:0] $end
+$var wire 1 C ne $end
+$var wire 1 9 lt $end
+$upscope $end
+$scope module comparelengthzero $end
+$var wire 5 D A [4:0] $end
+$var wire 5 E B [4:0] $end
+$var wire 1 1 ne $end
+$var wire 1 F lt $end
+$upscope $end
+$scope module rf $end
+$var wire 1 * clock $end
+$var wire 32 G internal_rdData [31:0] $end
+$var wire 32 H rdData [31:0] $end
+$var wire 5 I rdNum [4:0] $end
+$var wire 1 J rdWriteEnable $end
+$var wire 1 - reset $end
+$var wire 32 K rsData [31:0] $end
+$var wire 5 L rsNum [4:0] $end
+$var wire 32 M rtData [31:0] $end
+$var wire 5 N rtNum [4:0] $end
+$var integer 32 O i [31:0] $end
+$upscope $end
+$upscope $end
+$scope module control $end
+$var wire 1 * clock $end
+$var wire 1 ( done $end
+$var wire 1 ' end_of_array $end
+$var wire 1 + go $end
+$var wire 1 & inversion_found $end
+$var wire 1 % load_index $end
+$var wire 1 $ load_input $end
+$var wire 1 - reset $end
+$var wire 1 P sFDone_next $end
+$var wire 1 Q sGarbage_next $end
+$var wire 1 R sIncrement_next $end
+$var wire 1 S sStart_next $end
+$var wire 1 T sTDone_next $end
+$var wire 1 # select_index $end
+$var wire 1 " sorted $end
+$var wire 1 U wCheck_next $end
+$var wire 1 ! zero_length_array $end
+$var wire 1 V wCheck $end
+$var wire 1 W sTDone $end
+$var wire 1 X sStart $end
+$var wire 1 Y sIncrement $end
+$var wire 1 Z sGarbage $end
+$var wire 1 [ sFDone $end
+$scope module falseDone $end
+$var wire 1 * clk $end
+$var wire 1 P d $end
+$var wire 1 \ enable $end
+$var wire 1 ] reset $end
+$var reg 1 [ q $end
+$upscope $end
+$scope module fsGarbage $end
+$var wire 1 * clk $end
+$var wire 1 Q d $end
+$var wire 1 ^ enable $end
+$var wire 1 _ reset $end
+$var reg 1 Z q $end
+$upscope $end
+$scope module fsPreStart $end
+$var wire 1 * clk $end
+$var wire 1 S d $end
+$var wire 1 ` enable $end
+$var wire 1 a reset $end
+$var reg 1 X q $end
+$upscope $end
+$scope module incrementCheck $end
+$var wire 1 * clk $end
+$var wire 1 R d $end
+$var wire 1 b enable $end
+$var wire 1 c reset $end
+$var reg 1 Y q $end
+$upscope $end
+$scope module trueDone $end
+$var wire 1 * clk $end
+$var wire 1 T d $end
+$var wire 1 d enable $end
+$var wire 1 e reset $end
+$var reg 1 W q $end
+$upscope $end
+$scope module whileCheck $end
+$var wire 1 * clk $end
+$var wire 1 U d $end
+$var wire 1 f enable $end
+$var wire 1 g reset $end
+$var reg 1 V q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0g
+1f
+0e
+1d
+0c
+1b
+0a
+1`
+0_
+1^
+0]
+1\
+x[
+xZ
+xY
+xX
+xW
+xV
+xU
+xT
+0S
+xR
+1Q
+xP
+b100000 O
+bx N
+bx M
+bx L
+bx K
+zJ
+bz I
+bz H
+bx G
+xF
+b0 E
+bx D
+xC
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+x:
+x9
+x8
+b0xxxxx 7
+bx 6
+bx 5
+bx 4
+b0xxxxx 3
+bx 2
+x1
+bx 0
+bx /
+bx .
+1-
+bx ,
+0+
+0*
+bx )
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#1
+0R
+0'
+b1 N
+b0 L
+1!
+19
+1C
+b1 5
+b0 6
+b0 3
+b0 =
+b0 A
+b11111 2
+b11111 B
+0F
+01
+b0 >
+b0 D
+b0 7
+b0 <
+1Z
+0X
+1*
+bz G
+#2
+0&
+08
+0:
+b0 4
+b0 ?
+b0 M
+b0 ;
+b0 @
+b0 K
+0*
+b100000 .
+0-
+#3
+1#
+0U
+0%
+0Y
+18
+1:
+b1 4
+b1 ?
+b1 M
+1*
+#4
+0Q
+0P
+1S
+0*
+1+
+b101 ,
+b101 0
+b1011 )
+b1011 /
+#5
+0T
+0Z
+1X
+0$
+0V
+0[
+1*
+#6
+0*
+#7
+0(
+0"
+0W
+1*
+#8
+0*
+#9
+1*
+#10
+0*
+#11
+1*
+#12
+0*
+#13
+1*
+#14
+0S
+1U
+0*
+0+
+#15
+1T
+0U
+1$
+1V
+0X
+1*
+#16
+0*
+#17
+0!
+b1100 N
+b1011 L
+1(
+b100 2
+b100 B
+11
+b101 >
+b101 D
+b1100 5
+b1011 6
+b1011 7
+b1011 <
+0$
+0V
+1"
+1W
+1*
+#18
+b1100 4
+b1100 ?
+b1100 M
+1:
+b1011 ;
+b1011 @
+b1011 K
+0*
+#19
+1*
+#20
+0*
+#21
+1*
+#22
+0*
+#23
+1*
+#24
+0*
+#25
+1*
+#26
+0*
+#27
+1*
+#28
+0*
+#29
+1*
+#30
+0*
+#31
+1*
+#32
+0*
+#33
+1*
+#34
+0*
+#35
+1*
+#36
+1S
+0T
+0*
+1+
+b10 )
+b10 /
+#37
+1S
+0(
+1X
+0"
+0W
+1*
+#38
+0*
+#39
+1*
+#40
+0*
+#41
+1*
+#42
+0*
+#43
+1*
+#44
+0*
+#45
+1*
+#46
+0S
+1U
+0*
+0+
+#47
+1R
+0U
+1$
+1V
+0X
+1*
+#48
+0*
+#49
+0R
+b11 N
+b10 L
+0#
+1U
+b11 5
+b10 6
+b10 7
+b10 <
+0$
+0V
+1%
+1Y
+1*
+#50
+b10 4
+b10 ?
+b10 M
+b1 ;
+b1 @
+b1 K
+0*
+#51
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#52
+0*
+#53
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#54
+0*
+#55
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#56
+0*
+#57
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#58
+0*
+#59
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#60
+0*
+#61
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#62
+0*
+#63
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#64
+0*
+#65
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#66
+0*
+#67
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#68
+0*
+1+
+b11 ,
+b11 0
+b111 )
+b111 /
+#69
+0R
+b1000 N
+b111 L
+0#
+1U
+b10 2
+b10 B
+b11 >
+b11 D
+b1000 5
+b111 6
+b111 7
+b111 <
+0$
+0V
+1%
+1Y
+1*
+#70
+b1000 4
+b1000 ?
+b1000 M
+1:
+b111 ;
+b111 @
+b111 K
+0*
+#71
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#72
+0*
+#73
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#74
+0*
+#75
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#76
+0*
+#77
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#78
+0*
+0+
+#79
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#80
+0*
+#81
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#82
+0*
+#83
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#84
+0*
+#85
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#86
+0*
+#87
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#88
+0*
+#89
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#90
+0*
+#91
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#92
+0*
+#93
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#94
+0*
+#95
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#96
+0*
+#97
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#98
+0*
+#99
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#100
+0*
+1+
+b101 ,
+b101 0
+b1100 )
+b1100 /
+#101
+0R
+b1101 N
+b1100 L
+0#
+1U
+b100 2
+b100 B
+b101 >
+b101 D
+b1101 5
+b1100 6
+b1100 7
+b1100 <
+0$
+0V
+1%
+1Y
+1*
+#102
+b10 4
+b10 ?
+b10 M
+b1 ;
+b1 @
+b1 K
+0*
+#103
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#104
+0*
+#105
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#106
+0*
+#107
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#108
+0*
+#109
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#110
+0*
+0+
+#111
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#112
+0*
+#113
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#114
+0*
+#115
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#116
+0*
+#117
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#118
+0*
+#119
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#120
+0*
+#121
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#122
+0*
+#123
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#124
+0*
+#125
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#126
+0*
+#127
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#128
+0*
+#129
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#130
+0*
+#131
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#132
+0*
+1+
+b10001 )
+b10001 /
+#133
+0R
+b10010 N
+b10001 L
+0#
+1U
+b10010 5
+b10001 6
+b10001 7
+b10001 <
+0$
+0V
+1%
+1Y
+1*
+#134
+0*
+#135
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#136
+0*
+#137
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#138
+0*
+#139
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#140
+0*
+#141
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#142
+0*
+0+
+#143
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#144
+0*
+#145
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#146
+0*
+#147
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#148
+0*
+#149
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#150
+0*
+#151
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#152
+0*
+#153
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#154
+0*
+#155
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#156
+0*
+#157
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#158
+0*
+#159
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#160
+0*
+#161
+0R
+0#
+1U
+0$
+0V
+1%
+1Y
+1*
+#162
+0*
+#163
+1R
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#164
+0*
+1+
+b10110 )
+b10110 /
+#165
+0R
+b10111 N
+b10110 L
+0#
+1U
+b10111 5
+b10110 6
+b10110 7
+b10110 <
+0$
+0V
+1%
+1Y
+1*
+#166
+1&
+0:
+b101 ;
+b101 @
+b101 K
+0*
+#167
+1P
+1#
+0U
+0%
+0Y
+1$
+1V
+1*
+#168
+0*
+#169
+0P
+1S
+1(
+0$
+0V
+1[
+1*
+#170
+0*
+#171
+1S
+0(
+0[
+1X
+1*
+#172
+0*
+#173
+1*
+#174
+0S
+1U
+0*
+0+
+#175
+1P
+0U
+1$
+1V
+0X
+1*
+#176
+0*
+#177
+1(
+0$
+0V
+1[
+1*
+#178
+0*
+#179
+1*
+#180
+0*
+#181
+1*
+#182
+0*
+#183
+1*
+#184
+0*
+#185
+1*
+#186
+0*
+#187
+1*
+#188
+0*
+#189
+1*
+#190
+0*
+#191
+1*
+#192
+0*
+#193
+1*
+#194
+0*
+#195
+1*
+#196
+0*
+#197
+1*
+#198
+0*
+#199
+1*
+#200
+0*
+#201
+1*
+#202
+0*
+#203
+1*
+#204
+0*

@@ -1,0 +1,331 @@
+$date
+	Sun Oct 18 20:42:40 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cp0_test $end
+$var wire 32 ! rd_data [31:0] $end
+$var wire 1 " TakenInterrupt $end
+$var wire 30 # EPC [29:0] $end
+$var reg 1 $ ERET $end
+$var reg 1 % MTC0 $end
+$var reg 1 & TimerInterrupt $end
+$var reg 1 ' clock $end
+$var reg 30 ( next_pc [29:0] $end
+$var reg 5 ) regnum [4:0] $end
+$var reg 1 * reset $end
+$var reg 32 + wr_data [31:0] $end
+$scope module c0 $end
+$var wire 1 $ ERET $end
+$var wire 1 % MTC0 $end
+$var wire 1 " TakenInterrupt $end
+$var wire 1 & TimerInterrupt $end
+$var wire 1 , cause_status $end
+$var wire 1 ' clock $end
+$var wire 1 - epc_register_enable $end
+$var wire 1 . exception_level_reset $end
+$var wire 30 / next_pc [29:0] $end
+$var wire 5 0 regnum [4:0] $end
+$var wire 1 * reset $end
+$var wire 1 1 sr_not $end
+$var wire 1 2 status_out $end
+$var wire 32 3 wr_data [31:0] $end
+$var wire 32 4 user_status [31:0] $end
+$var wire 32 5 status [31:0] $end
+$var wire 32 6 rd_data [31:0] $end
+$var wire 1 7 exception_level $end
+$var wire 32 8 epc_extend [31:0] $end
+$var wire 32 9 decoder_out [31:0] $end
+$var wire 30 : d_epc_register [29:0] $end
+$var wire 32 ; cause [31:0] $end
+$var wire 30 < EPC [29:0] $end
+$scope module decoderRegnum $end
+$var wire 1 % enable $end
+$var wire 5 = in [4:0] $end
+$var wire 32 > out [31:0] $end
+$upscope $end
+$scope module epcRegister $end
+$var wire 1 ' clk $end
+$var wire 1 * enable $end
+$var wire 1 - reset $end
+$var wire 30 ? d [29:0] $end
+$var reg 30 @ q [29:0] $end
+$upscope $end
+$scope module exceptionLevel $end
+$var wire 1 ' clk $end
+$var wire 1 A d $end
+$var wire 1 . enable $end
+$var wire 1 " reset $end
+$var reg 1 7 q $end
+$upscope $end
+$scope module mux1 $end
+$var wire 30 B A [29:0] $end
+$var wire 30 C B [29:0] $end
+$var wire 30 D out [29:0] $end
+$var wire 1 " sel $end
+$var wire 30 E temp1 [29:0] $end
+$var wire 30 F temp2 [29:0] $end
+$upscope $end
+$scope module mux2 $end
+$var wire 32 G A [31:0] $end
+$var wire 32 H B [31:0] $end
+$var wire 32 I C [31:0] $end
+$var wire 2 J sel [1:0] $end
+$var wire 32 K wAB [31:0] $end
+$var wire 32 L out [31:0] $end
+$scope module mAB $end
+$var wire 32 M A [31:0] $end
+$var wire 32 N B [31:0] $end
+$var wire 32 O out [31:0] $end
+$var wire 1 P sel $end
+$var wire 32 Q temp1 [31:0] $end
+$var wire 32 R temp2 [31:0] $end
+$upscope $end
+$scope module mfinal $end
+$var wire 32 S A [31:0] $end
+$var wire 32 T B [31:0] $end
+$var wire 32 U out [31:0] $end
+$var wire 1 V sel $end
+$var wire 32 W temp1 [31:0] $end
+$var wire 32 X temp2 [31:0] $end
+$upscope $end
+$upscope $end
+$scope module userStatus $end
+$var wire 1 ' clk $end
+$var wire 32 Y d [31:0] $end
+$var wire 1 * enable $end
+$var wire 1 Z reset $end
+$var reg 32 [ q [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx [
+0Z
+b0 Y
+b0 X
+b0xxxxxxxx000000xx W
+0V
+b0xxxxxxxx000000xx U
+bx00 T
+b0xxxxxxxx000000xx S
+b0 R
+b0xxxxxxxx000000xx Q
+0P
+b0xxxxxxxx000000xx O
+b0 N
+b0xxxxxxxx000000xx M
+b0xxxxxxxx000000xx L
+b0xxxxxxxx000000xx K
+b0 J
+bx00 I
+b0 H
+b0xxxxxxxx000000xx G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+1A
+bx @
+b0 ?
+b0 >
+b0 =
+bx <
+b0 ;
+b0 :
+b0 9
+bx00 8
+x7
+b0xxxxxxxx000000xx 6
+b0xxxxxxxx000000xx 5
+bx 4
+b0 3
+x2
+x1
+b0 0
+b0 /
+1.
+0-
+0,
+b0 +
+1*
+b0 )
+b0 (
+0'
+0&
+0%
+0$
+bx #
+0"
+b0xxxxxxxx000000xx !
+$end
+#5
+b10 !
+b10 6
+b10 L
+b10 U
+02
+b10 W
+01
+b10 K
+b10 O
+b10 S
+b10 Q
+b0 4
+b0 [
+b10 5
+b10 G
+b10 M
+17
+b0 8
+b0 I
+b0 T
+b0 #
+b0 <
+b0 @
+1'
+#10
+b111111111111111111111111111111 :
+b111111111111111111111111111111 ?
+b111111111111111111111111111111 D
+b111111111111111111111111111111 E
+1Z
+b111111111111111111111111111111 B
+b1000000000000 9
+b1000000000000 >
+0.
+0'
+b11111111111111111111111111111111 +
+b11111111111111111111111111111111 3
+b11111111111111111111111111111111 Y
+b1100 )
+b1100 0
+b1100 =
+1%
+0*
+#15
+1'
+#20
+0Z
+b0 9
+b0 >
+0'
+0%
+#25
+1'
+#30
+0'
+b100000000000000000001 (
+b100000000000000000001 /
+b100000000000000000001 C
+b1000000000000000 ;
+b1000000000000000 H
+b1000000000000000 N
+1&
+#35
+1'
+#40
+0'
+b100000000000000000010 (
+b100000000000000000010 /
+b100000000000000000010 C
+#45
+1'
+#50
+b0 !
+b0 6
+b0 L
+b0 U
+b0 W
+1V
+b10 J
+0'
+b1110 )
+b1110 0
+b1110 =
+#55
+1'
+#60
+b1000000000000000 K
+b1000000000000000 O
+b1000000000000000 S
+b1000000000000000 !
+b1000000000000000 6
+b1000000000000000 L
+b1000000000000000 U
+b0 Q
+b1000000000000000 R
+b1000000000000000 W
+1P
+0V
+b1 J
+0'
+b1101 )
+b1101 0
+b1101 =
+#65
+1'
+#70
+b0 !
+b0 6
+b0 L
+b0 U
+b0 W
+b0 K
+b0 O
+b0 S
+1.
+b0 R
+0'
+1$
+b0 ;
+b0 H
+b0 N
+0&
+#75
+1'
+#80
+b10 !
+b10 6
+b10 L
+b10 U
+b10 W
+b10 K
+b10 O
+b10 S
+b10 Q
+0P
+b0 J
+0'
+b1100 )
+b1100 0
+b1100 =
+#85
+1'
+#90
+b0 !
+b0 6
+b0 L
+b0 U
+b0 W
+b0 K
+b0 O
+b0 S
+b0 Q
+1P
+b1 J
+0'
+b1101 )
+b1101 0
+b1101 =
+#95
+1'
+#100
+0'

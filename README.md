@@ -1,2 +1,2 @@
-# cs233
-cs233 @ uiuc
+# _release
+Lab files will be made publicly available in this repo
